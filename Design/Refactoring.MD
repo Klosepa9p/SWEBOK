@@ -12,6 +12,9 @@
 
 ### 🧪 Yaygın Refactoring Yöntemleri
 
+-- Daha detaylı bir şekilde sonra bakılacak.
+
+
 | Yöntem                         | Açıklama                                                   |
 |-------------------------------|------------------------------------------------------------|
 | **Extract Method**             | Uzun veya karmaşık bir metodu, anlamlı alt parçalara ayırmak. |
