@@ -61,3 +61,26 @@ Temel amaç, **aynı olan (paylaşılan) verileri tek bir yerde saklayarak** tek
  Prototype deseni, nesneyi yaratırken karşımıza çıkan problemi çözüyor. Flyweight design pattern ise zaten oluşturulmuş nesneleri belleğe aktarıyor! Yani hali hazırda bellekte olan nesnelerin bir kombinasyonunu oluşturuyorsunuz. Sonuç olarak birbirlerine benzemelerine karşın, pratikte oldukça farklı iki işleve sahip desenlerden bahsediyoruz.
 
 
+
+## 📝Örnek Açıklaması
+
+- **CharacterFlyweight**  
+  Flyweight sınıfıdır; ortak (*intrinsic*) özellikleri tutar:  
+  - sembol
+  - font
+  - boyut  
+  `display` fonksiyonu, harici (*extrinsic*) durumları (örneğin, pozisyon) parametre olarak alır.
+
+- **FlyweightFactory**  
+  Flyweight nesnelerini oluşturur ve yeniden kullanır.  
+  Aynı özelliklere sahip bir Flyweight zaten varsa, yeni bir nesne oluşturmak yerine mevcut olanı döndürür.
+
+- **TextEditor (Client)**  
+  Client sınıfıdır; `FlyweightFactory` kullanarak karakterleri ekler ve görüntüler.
+
+- **Anahtar Oluşturma**  
+  `createKey` fonksiyonu, Flyweight nesnelerini benzersiz şekilde tanımlamak için bir anahtar üretir.
+
+- **💾 Bellek Tasarrufu**  
+  Aynı özelliklere sahip karakterler (ör: `'A'`, *Arial*, `12`) için yalnızca bir Flyweight nesnesi oluşturulur ve paylaşılır.  
+  Böylece çok sayıda karakter kullanılan senaryolarda ciddi bellek tasarrufu sağlanır.
