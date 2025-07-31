@@ -29,6 +29,12 @@ Ortak metodu alt sınıflardan **üst sınıfa** (**superclass**) taşıyarak, k
 4. Gerekirse metodun erişim seviyesini (örn. `protected`) ayarlayın.
 5. Kodun doğru çalıştığından emin olmak için test et.
 
-### 🐞 Problem
 
-![Önceki hali](before.png) ![Sonraki hali](after.png)
+
+## 📷 Görsel Anlatım
+
+**Önce:**  
+![Önceki hali](before.png)
+
+**Sonra:**  
+![Sonraki hali](after.png)
