@@ -36,5 +36,3 @@ Bu sınıf, orijinal sınıfın **arayüzünü** uygular ancak gerçek bir işle
 
 > 🎯 **Not:** Null Object, gerçek nesneyle aynı arayüzü kullanarak istemci kodun daha **basit, güvenli ve tutarlı** çalışmasını sağlar.
 
-
-
