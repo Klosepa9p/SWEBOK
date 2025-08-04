@@ -36,5 +36,7 @@ public class Main {
     }
 }
 
-//Sorun: DatabaseConnection sınıfı, kullanılmadan önce connect metodunun çağrılmasını ve iş bittikten sonra close metodunun manuel olarak çağrılmasını gerektiriyor. Eğer geliştirici bu adımları unutursa, bağlantı başlatılmadan kullanılmaya çalışılabilir veya açık bağlantılar sızabilir (resource leak).
+// Sorun: DatabaseConnection sınıfı, kullanılmadan önce connect metodunun çağrılmasını ve iş bittikten sonra
+// close metodunun manuel olarak çağrılmasını gerektiriyor. Eğer geliştirici bu adımları unutursa, bağlantı
+// başlatılmadan kullanılmaya çalışılabilir veya açık bağlantılar sızabilir (resource leak).
 

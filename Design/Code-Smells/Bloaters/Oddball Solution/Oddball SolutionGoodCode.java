@@ -70,5 +70,10 @@ public class Main {
     }
 }
 
-
-//Açıklama: Düzeltilmiş kodda, bildirim gönderme işlemi için ortak bir Notification arayüzü tanımlandı ve her bildirim türü (e-posta, SMS, push) bu arayüzü uygulayan ayrı sınıflarla temsil edildi. NotificationService sınıfı, yalnızca Notification arayüzünü kabul ederek tutarlı bir şekilde tüm bildirim türlerini işler. Bu, Strateji Deseni kullanılarak Oddball Solution kokusunun ortadan kaldırılmasını sağlar. Kod artık daha tutarlı, genişletilebilir ve bakımı kolay hale geldi. Yeni bir bildirim türü eklendiğinde, sadece yeni bir sınıf oluşturularak sistem genişletilebilir.
+/*
+Açıklama: Düzeltilmiş kodda, bildirim gönderme işlemi için ortak bir Notification arayüzü tanımlandı ve her bildirim
+türü (e-posta, SMS, push) bu arayüzü uygulayan ayrı sınıflarla temsil edildi. NotificationService sınıfı, yalnızca
+Notification arayüzünü kabul ederek tutarlı bir şekilde tüm bildirim türlerini işler. Bu, Strateji Deseni kullanılarak
+Oddball Solution kokusunun ortadan kaldırılmasını sağlar. Kod artık daha tutarlı, genişletilebilir ve bakımı kolay hale
+geldi. Yeni bir bildirim türü eklendiğinde, sadece yeni bir sınıf oluşturularak sistem genişletilebilir.
+*/

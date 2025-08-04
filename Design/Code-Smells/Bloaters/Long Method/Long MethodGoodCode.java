@@ -43,5 +43,6 @@ private void sendConfirmationEmail(Order order, double total) {
 
 
 /*
-Açıklama: Yukarıdaki düzeltilmiş kodda, processOrder metodu daha küçük ve tek sorumluluğa sahip metodlara ayrıldı. Her metodun amacı açıkça belirtilmiş ve kodun okunabilirliği, test edilebilirliği ve bakımı kolaylaşmıştır.
+Açıklama: Yukarıdaki düzeltilmiş kodda, processOrder metodu daha küçük ve tek sorumluluğa sahip metodlara ayrıldı.
+Her metodun amacı açıkça belirtilmiş ve kodun okunabilirliği, test edilebilirliği ve bakımı kolaylaşmıştır.
 */

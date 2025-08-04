@@ -84,4 +84,9 @@ class Order {
     }
 }
 
-//Açıklama: Düzeltilmiş kodda, processOrder metodunun parametre sayısı azaltıldı. İlgili veriler Customer, Address ve Order sınıflarında birleştirildi. Bu sınıflar, kendi doğrulama ve davranışlarını kapsülleyerek kodun okunabilirliğini, yeniden kullanılabilirliğini ve bakımını kolaylaştırdı. processOrder metodu artık daha az parametreyle daha temiz ve anlaşılır bir şekilde çalışıyor.
+/*
+Açıklama: Düzeltilmiş kodda, processOrder metodunun parametre sayısı azaltıldı. İlgili veriler Customer, Address ve
+Order sınıflarında birleştirildi. Bu sınıflar, kendi doğrulama ve davranışlarını kapsülleyerek kodun okunabilirliğini,
+yeniden kullanılabilirliğini ve bakımını kolaylaştırdı. processOrder metodu artık daha az parametreyle daha temiz ve
+anlaşılır bir şekilde çalışıyor.
+*/

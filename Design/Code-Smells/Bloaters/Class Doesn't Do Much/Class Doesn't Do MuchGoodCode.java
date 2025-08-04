@@ -44,4 +44,9 @@ public class Customer {
 }
 
 
-//Açıklama: Düzeltilmiş kodda, Address sınıfına anlamlı bir davranış (format metodu) eklendi ve doğrulama mantığı sınıfın içine taşındı. Böylece Address sınıfı yalnızca bir veri tutucu olmaktan çıktı ve kendi sorumluluğunu üstlendi. Ayrıca, alanlar final yapılarak değişmez (immutable) hale getirildi, bu da sınıfın güvenilirliğini artırdı. Eğer Address sınıfının başka bir işlevi olmayacaksa ve yalnızca veri tutacaksa, Customer sınıfına doğrudan entegre edilerek tamamen kaldırılabilir (Inline Class):
+//eklendi ve doğrulama mantığı sınıfın içine taşındı. Böylece Address sınıfı yalnızca 
+//bir veri tutucu olmaktan çıktı ve kendi sorumluluğunu üstlendi. Ayrıca, alanlar final 
+//yapılarak değişmez (immutable) hale getirildi, bu da sınıfın güvenilirliğini artırdı. 
+//Eğer Address sınıfının başka bir işlevi olmayacaksa ve yalnızca veri tutacaksa, Customer 
+//sınıfına doğrudan entegre edilerek tamamen kaldırılabilir (Inline Class):
+//Açıklama: Düzeltilmiş kodda, Address sınıfına anlamlı bir davranış (format metodu) 

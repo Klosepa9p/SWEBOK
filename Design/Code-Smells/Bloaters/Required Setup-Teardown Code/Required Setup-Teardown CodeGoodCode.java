@@ -29,6 +29,10 @@ public class Main {
     }
 }
 
-
-
-//Açıklama: Düzeltilmiş kodda, DatabaseConnection sınıfı AutoCloseable arayüzünü uyguluyor ve bağlantı başlatma işlemi constructor içinde gerçekleştiriliyor. Bu, setup işleminin manuel olarak yapılmasını gereksiz kılıyor. Ayrıca, try-with-resources yapısı kullanılarak close metodu otomatik olarak çağrılıyor, böylece teardown işlemi de garantileniyor. Bu yaklaşım, hem hata olasılığını azaltıyor hem de kodu daha temiz ve güvenli hale getiriyor. Geliştiricinin manuel olarak setup/teardown yapması gerekmediği için kullanım kolaylaşıyor ve kapsülleme korunuyor.
+/*
+Açıklama: Düzeltilmiş kodda, DatabaseConnection sınıfı AutoCloseable arayüzünü uyguluyor ve bağlantı başlatma işlemi
+constructor içinde gerçekleştiriliyor. Bu, setup işleminin manuel olarak yapılmasını gereksiz kılıyor. Ayrıca,
+try-with-resources yapısı kullanılarak close metodu otomatik olarak çağrılıyor, böylece teardown işlemi de
+garantileniyor. Bu yaklaşım, hem hata olasılığını azaltıyor hem de kodu daha temiz ve güvenli hale getiriyor.
+Geliştiricinin manuel olarak setup/teardown yapması gerekmediği için kullanım kolaylaşıyor ve kapsülleme korunuyor.
+*/

@@ -49,4 +49,6 @@ public class Customer {
     }
 }
 
-//Sorun: Address sınıfı yalnızca veri tutuyor ve hiçbir anlamlı davranışa sahip değil. Getter ve setter metodları dışında bir işlevi yok, bu da "Class Doesn't Do Much" kokusuna işaret ediyor. Adres formatlama gibi iş mantığı, Customer sınıfına yüklenmiş.
+// Sorun: Address sınıfı yalnızca veri tutuyor ve hiçbir anlamlı davranışa sahip değil. Getter ve setter
+// metodları dışında bir işlevi yok, bu da "Class Doesn't Do Much" kokusuna işaret ediyor. Adres formatlama
+// gibi iş mantığı, Customer sınıfına yüklenmiş.

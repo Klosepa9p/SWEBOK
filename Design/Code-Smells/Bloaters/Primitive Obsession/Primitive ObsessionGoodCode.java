@@ -53,5 +53,9 @@ class Address {
     }
 }
 
-
-//Açıklama: Düzeltilmiş kodda, PhoneNumber ve Address sınıfları oluşturularak ilkel tiplerin yerini aldı. Bu sınıflar, veri doğrulama ve formatlama gibi davranışları kendi içlerinde barındırıyor. Böylece kod daha modüler, yeniden kullanılabilir ve güvenli hale geldi. Customer sınıfı, bu yeni sınıfları kullanarak daha temiz ve anlaşılır bir yapıya kavuştu.
+/*
+Açıklama: Düzeltilmiş kodda, PhoneNumber ve Address sınıfları oluşturularak ilkel tiplerin yerini aldı. Bu sınıflar,
+veri doğrulama ve formatlama gibi davranışları kendi içlerinde barındırıyor. Böylece kod daha modüler, yeniden
+kullanılabilir ve güvenli hale geldi. Customer sınıfı, bu yeni sınıfları kullanarak daha temiz ve anlaşılır bir yapıya
+kavuştu.
+*/

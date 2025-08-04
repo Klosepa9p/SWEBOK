@@ -23,4 +23,6 @@ public class NotificationService {
     }
 }
 
-//Sorun: Yukarıdaki kodda, bildirim gönderme işlemi için üç farklı yöntem (e-posta, SMS, push) farklı yaklaşımlarla ve tutarsız arayüzlerle uygulanıyor. Her biri farklı parametreler alıyor ve farklı formatlama mantığı kullanıyor, bu da Oddball Solution kokusuna neden oluyor.
+// Sorun: Yukarıdaki kodda, bildirim gönderme işlemi için üç farklı yöntem (e-posta, SMS, push) farklı
+// yaklaşımlarla ve tutarsız arayüzlerle uygulanıyor. Her biri farklı parametreler alıyor ve farklı
+// formatlama mantığı kullanıyor, bu da Oddball
