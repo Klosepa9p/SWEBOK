@@ -90,10 +90,10 @@ class OrderContext {
     }
 }
 
-//Strateji Deseni kullanıldı. Her müşteri tipi için ayrı bir DiscountStrategy sınıfı 
-//oluşturuldu ve indirim hesaplamaları bu sınıflara taşındı. Customer sınıfı, uygun 
-//stratejiyi seçer ve OrderContext sınıfı, zamanla ilgili bilgileri (hafta sonu veya tatil) 
-//kapsüller. Bu yaklaşım, yeni müşteri tipleri veya durumlar eklendiğinde kodun kolayca 
-//genişletilmesini sağlar ve kombinasyon patlamasını önler. Kod daha okunabilir, bakımı kolay 
-//ve esnek hale geldi.
-//Açıklama: Düzeltilmiş kodda, DiscountCalculator sınıfındaki koşullu ifadeler kaldırılarak 
+/*
+Açıklama: Düzeltilmiş kodda, DiscountCalculator sınıfındaki koşullu ifadeler kaldırılarak Strateji Deseni kullanıldı.
+Her müşteri tipi için ayrı bir DiscountStrategy sınıfı oluşturuldu ve indirim hesaplamaları bu sınıflara taşındı.
+Customer sınıfı, uygun stratejiyi seçer ve OrderContext sınıfı, zamanla ilgili bilgileri (hafta sonu veya tatil)
+kapsüller. Bu yaklaşım, yeni müşteri tipleri veya durumlar eklendiğinde kodun kolayca genişletilmesini sağlar ve
+kombinasyon patlamasını önler. Kod daha okunabilir, bakımı kolay ve esnek hale geldi.
+*/
