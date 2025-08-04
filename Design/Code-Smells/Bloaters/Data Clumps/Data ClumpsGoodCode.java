@@ -66,4 +66,7 @@ class TimeRange {
     }
 }
 
-//Açıklama: Düzeltilmiş kodda, adres bilgileri (street, city, postalCode) bir Address sınıfında ve zaman bilgileri (startHour, startMinute, endHour, endMinute) bir TimeRange sınıfında birleştirildi. Bu sınıflar, kendi doğrulama ve formatlama mantıklarını içeriyor. Böylece, createEvent ve updateEventLocation metodları daha az parametre alıyor ve kod daha okunabilir, yeniden kullanılabilir ve bakımı kolay hale geliyor. Data Clumps ortadan kaldırılarak kodun modülerliği artırıldı.
+//Açıklama: Düzeltilmiş kodda, adres bilgileri (street, city, postalCode) bir Address sınıfında ve zaman bilgileri (startHour, startMinute, endHour, endMinute) 
+// bir TimeRange sınıfında birleştirildi. Bu sınıflar, kendi doğrulama ve formatlama mantıklarını içeriyor. 
+// Böylece, createEvent ve updateEventLocation metodları daha az parametre alıyor ve kod daha okunabilir, yeniden kullanılabilir ve bakımı kolay hale geliyor.
+//  Data Clumps ortadan kaldırılarak kodun modülerliği artırıldı.
